@@ -8,7 +8,7 @@ import AddCustomer from "./AddCustomer";
 // import memoize from "memoize-one";
 
 const deleteConfirm = (id) => {
-  if (window.confirm("bạn có chắc muốn xóa không")) {
+  if (window.confirm("bạn có chắc muốn xóa khách hàng này không")) {
     const token = sessionStorage.getItem("tokenStorage");
     // debugger;
     CustomerService.deleteCustomer(id, token);
