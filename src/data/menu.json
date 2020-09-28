@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Dashboard",
+        "to": "/main/dashboard",
+        "exact": true,
+        "icon": "fa-tachometer-alt",
+        "subMenu": []
+    },
+    {
+        "id": 2,
+        "name": "Quản lý người dùng",
+        "to": "/main/user",
+        "exact": true,
+        "icon": "fa-tachometer-alt",
+        "subMenu": [
+         
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Quản lý khách hàng",
+        "to": "/main/customer",
+        "exact": true,
+        "icon": "fa-tachometer-alt",
+        "subMenu": [
+           
+        ]
+    }
+
+]
